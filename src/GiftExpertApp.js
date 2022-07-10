@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
-const GiftExpertApp = () => {
-    const [categories, setCategories] = useState(['Full Metal']);
+const GiftExpertApp = ({ defaultCategories = [] }) => {
+    const [categories, setCategories] = useState( defaultCategories );
 
     // const handleAdd = () => {
     //     setCategories( [ ...categories, 'Dead Note' ] );

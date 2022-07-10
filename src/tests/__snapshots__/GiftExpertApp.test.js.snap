@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <GiftExpertApp /> El componente renderizado debe ser igual a su Snapshot por defecto 1`] = `
+<main>
+  <h2>
+    GiftExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <div />
+</main>
+`;

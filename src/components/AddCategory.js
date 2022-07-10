@@ -8,11 +8,14 @@ const AddCategory = ({ setCategories }) => {
         e.preventDefault();
         if(inputValue.length > 2) {
             setCategories((cat => [  inputValue, ...cat ]));
+            setInputValue( '' );
         }       
+        // console.log( 'Disparando handleSubmit()' );
     }
 
     const handleChangeInput = (e) => {        
-        setInputValue( e.target.value );        
+        setInputValue( e.target.value );
+        // console.log( 'HandleInputChange llamdo' );
     }
 
 
